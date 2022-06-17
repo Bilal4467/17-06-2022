@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paddin and margin</title>
+    <style>
+      body {
+        background: url(./R.jpg) no-repeat;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #footer {
+        padding: 0;
+        margin: 0;
+      }
+      h1 {
+        color: black;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+        background: rgb(255, 255, 255);
+      }
+      #box_1 ul {
+        color: white;
+        list-style: none;
+        display: flex;
+        margin-top: 1.5rem;
+      }
+      #box_1 ul button {
+        padding: auto;
+      }
+      #box_1 button {
+        /* padding-left: 10px; */
+        margin-left: 10px;
+        font-size: 20px;
+        /* text-decoration: none; */
+      }
+      #box_1 button li a {
+        text-decoration: none;
+        color: black;
+      }
+      #header {
+        color: white;
+      }
+
+      h1:hover {
+        color: rgb(183, 9, 9);
+        font-size: 35px;
+      }
+      button:hover {
+        color: rgb(254, 144, 0);
+      }
+      #box_1 ul button li a:hover {
+        color: rgb(0, 178, 178);
+        tab-size: 5px;
+        font-size: 30pxs;
+      }
+      .main p {
+        padding: 5px;
+        border: 1.8px solid rgb(27, 27, 27);
+        border-radius: 20px;
+      }
+      .main h3 {
+        text-align: center;
+        margin-bottom: 1px;
+      }
+      .clr {
+        clear: both;
+      }
+      .main {
+        float: left;
+        max-width: 300px;
+        margin: 10px;
+      }
+      #footer {
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        padding-left: 15px;
+        margin: 0;
+      }
+      #footer h2 {
+        padding-top: 5px;
+      }
+
+      #flist {
+        display: flex;
+        list-style: circle;
+      }
+      h2:hover {
+        text-decoration: underline;
+        color: rgb(199, 0, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <h1>Samba</h1>
+        <div id="box_1">
+          <ul>
+            <button>
+              <li><a href="https://www.homes.com/ " target="black">Home</a></li>
+            </button>
+            <button>
+              <li><a href="https://www.shop.com//" target="_blank">Shop</a></li>
+            </button>
+            <button>
+              <li>About</li>
+            </button>
+            <button>
+              <li>Contact us</li>
+            </button>
+            <button>
+              <li><a href="https://www.cart.com/" target="_blank">Cart</a></li>
+            </button>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="main">
+        <h3>Our Products</h3>
+        <p>
+          Samba is the dolor sit amet consectetur adipisicing elit. Officiis
+          praesentium tempora inventore repudiandae excepturi libero sit
+          pariatur similique natus culpa maxime, perferendis molestias! Quaerat
+          officia officiis placeat modi molestias commodi a at labore asperiores
+          deserunt sed accusantium rem, libero ab. Samba is the dolor sit amet
+          consectetur adipisicing elit. Officiis praesentium tempora inventore
+          repudiandae excepturi libero sit pariatur similique natus culpa
+          maxime, perferendis molestias! Quaerat officia officiis placeat modi
+          molestias commodi a at labore asperiores deserunt sed accusantium rem,
+          libero ab.
+        </p>
+      </div>
+      <div class="main">
+        <h3>Our Proud</h3>
+        <p>
+          We are the dolor sit amet consectetur adipisicing elit. Officiis
+          praesentium tempora inventore repudiandae excepturi libero sit
+          pariatur similique natus culpa maxime, perferendis molestias! Quaerat
+          officia officiis placeat modi molestias commodi a at labore asperiores
+          deserunt sed accusantium rem, libero ab. Samba is the dolor sit amet
+          consectetur adipisicing elit. Officiis praesentium tempora inventore
+          repudiandae excepturi libero sit pariatur similique natus culpa
+          maxime, perferendis molestias! Quaerat officia officiis placeat modi
+          molestias commodi a at labore asperiores deserunt sed accusantium rem,
+          libero ab.
+        </p>
+      </div>
+      <div class="main">
+        <h3>Our Products</h3>
+        <p>
+          Samba is the dolor sit amet consectetur adipisicing elit. Officiis
+          praesentium tempora inventore repudiandae excepturi libero sit
+          pariatur similique natus culpa maxime, perferendis molestias! Quaerat
+          officia officiis placeat modi molestias commodi a at labore asperiores
+          deserunt sed accusantium rem, libero ab. Samba is the dolor sit amet
+          consectetur adipisicing elit. Officiis praesentium tempora inventore
+          repudiandae excepturi libero sit pariatur similique natus culpa
+          maxime, perferendis molestias! Quaerat officia officiis placeat modi
+          molestias commodi a at labore asperiores deserunt sed accusantium rem,
+          libero ab.
+        </p>
+      </div>
+      <div class="main">
+        <h3>Our Proud</h3>
+        <p>
+          We are the dolor sit amet consectetur adipisicing elit. Officiis
+          praesentium tempora inventore repudiandae excepturi libero sit
+          pariatur similique natus culpa maxime, perferendis molestias! Quaerat
+          officia officiis placeat modi molestias commodi a at labore asperiores
+          deserunt sed accusantium rem, libero ab. Samba is the dolor sit amet
+          consectetur adipisicing elit. Officiis praesentium tempora inventore
+          repudiandae excepturi libero sit pariatur similique natus culpa
+          maxime, perferendis molestias! Quaerat officia officiis placeat modi
+          molestias commodi a at labore asperiores deserunt sed accusantium rem,
+          libero ab.
+        </p>
+      </div>
+    </div>
+    <div class="clr"></div>
+    <div id="footer">
+      <h2>Samba</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est adipisci a
+        doloribus architecto deserunt aliquam quo esse nisi dolor illum!
+      </p>
+      <div id="flist">
+        <ul>
+          <li>Content</li>
+          <li>Offers</li>
+          <li>Sales</li>
+        </ul>
+        <ul>
+          <li>Content</li>
+          <li>Offers</li>
+          <li>Sales</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
